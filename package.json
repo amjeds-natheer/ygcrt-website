@@ -1,0 +1,14 @@
+{
+  "name": "ygcrt-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "YGCRT institutional website prototype (Arabic RTL, light/dark themes). Zero dependencies.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs .",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs dist",
+    "start": "node scripts/serve.mjs dist"
+  },
+  "engines": { "node": ">=18" }
+}

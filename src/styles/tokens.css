@@ -1,0 +1,3 @@
+/* THEME TOKENS: light is default (:root), dark is :root[data-theme=dark] */
+:root{color-scheme:light;--bg:#fff;--bg2:#F3F6F8;--card:#fff;--ink:#111D2D;--mut:#4a5b6c;--line:#d9e2ea;--act:#183A59;--lnk:#0b7896;--hd:#fff;--hdink:#111D2D;--hdmut:#3d5166;--hdhov:#eaf0f5;--bnon:#16845C;--hero:linear-gradient(165deg,#fff 0%,#e7f3f8 100%);--heromut:#3d5166;--cmd:#fff;--sh:0 10px 28px #183a591f;--sh1:0 1px 3px #183a5914}
+:root[data-theme=dark]{color-scheme:dark;--bg:#0b1522;--bg2:#111D2D;--card:#172a40;--ink:#e8eef4;--mut:#a3b4c4;--line:#27405a;--act:#5fc3dd;--lnk:#4fc0de;--hd:#111D2D;--hdink:#fff;--hdmut:#cfdbe7;--hdhov:#ffffff14;--bnon:#fff;--hero:linear-gradient(165deg,#111D2D,#0b1522);--heromut:#b9cbdb;--cmd:#ffffff10;--sh:0 10px 28px #0008;--sh1:none}
